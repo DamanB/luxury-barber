@@ -1,0 +1,38 @@
+.ArcText > .text{
+    margin: 0;
+    padding: 0;
+}
+
+.ArcText .placeholder
+{
+    opacity: 0;
+}
+
+.ArcText > .text > span{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 120px;
+    transform-origin: bottom center;
+}
+
+.ArcText > .text > span:nth-child(1){
+    transform: rotate(-11.73deg)
+}
+.ArcText > .text > span:nth-child(2){
+    transform: rotate(-6.59deg)
+}
+.ArcText > .text > span:nth-child(3){
+    transform: rotate(-1.87deg)
+}
+.ArcText > .text > span:nth-child(4){
+    transform: rotate(2.84deg)
+}
+.ArcText > .text > span:nth-child(5){
+    transform: rotate(7.88deg)
+}
+.ArcText > .text > span:nth-child(6){
+    transform: rotate(12.47deg)
+}
+
