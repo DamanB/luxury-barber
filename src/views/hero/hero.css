@@ -1,0 +1,48 @@
+.Hero{
+    height: 100vh;
+}
+
+.Hero > .overlay
+{
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.Hero > .bg-image {
+  background-image: url("../../assets/img/hero.jpg");
+  filter: blur(12px);
+  -webkit-filter: blur(12px);
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.Hero > header {
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: var(--light)
+}
+
+.Hero > header > *{
+    margin: 0;
+    padding: 0;
+}
+
+.Hero > header > img {
+    width: 75px;
+    height: 111px;
+}
+
+
