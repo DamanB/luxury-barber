@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+
 .Hero{
     height: 100vh;
 }
@@ -43,6 +46,24 @@
 .Hero > header > img {
     width: 75px;
     height: 111px;
+    margin-bottom: 20px;
 }
+
+.Hero h1 {
+    font-family: 'Fredericka the Great', 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.Hero h2 {
+    font-family: 'Geo', 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: -10px 0 30px 0;
+}
+
+
 
 
