@@ -1,0 +1,10 @@
+.Button button{
+    font-size: 12px;
+    font-weight: var(--ft-medium);
+    color: var(--light);
+    background-color: var(--secondary);
+    border: none;
+    cursor: pointer;
+    width: 215px;
+    height: 60px;
+}
