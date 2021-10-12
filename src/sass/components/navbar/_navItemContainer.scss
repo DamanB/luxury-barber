@@ -1,0 +1,22 @@
+.navItemContainer {
+    background-color: $primary;
+    width: 100%;
+
+    .navItem {
+        padding: 20px 30px;
+        border-bottom: 1px solid $light;
+
+        a {
+            font-size: 18px;
+            font-weight: $ft-light;
+            text-decoration: none;
+            color:  $light;
+        }
+
+  };
+
+  .navItem:first-of-type {
+    padding-top: 25px;
+  };
+
+};

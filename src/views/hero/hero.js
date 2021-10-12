@@ -1,8 +1,8 @@
 import './hero.css'
 import Logo from '../../assets/img/logo-white.png'
 
-import Button from '../../components/button/button.js'
-import ArcText from '../../components/arcText/ArcText.js'
+import TextButton from '../../components/textButton/textButton'
+import ArcText from '../../components/arcText/ArcText'
 
 const hero = () => {
     return ( 
@@ -13,7 +13,7 @@ const hero = () => {
                 <img src={Logo} alt="" />
                 <ArcText text="LUXURY" />
                 <h2>- BARBER SHOP -</h2>
-                <Button text="BOOK AN APPOINTMENT" />
+                <TextButton text="BOOK AN APPOINTMENT" />
             </header>
         </div> 
     );

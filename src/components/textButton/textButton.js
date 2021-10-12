@@ -1,9 +1,7 @@
-import './button.css'
-
-const Button = (props) => {
+const TextButton = (props) => {
     const text = props.text;
     return ( 
-        <div className="Button">
+        <div className="textButton">
             <button>
                 { text }
             </button>
@@ -11,4 +9,4 @@ const Button = (props) => {
      );
 }
  
-export default Button;
+export default TextButton;
