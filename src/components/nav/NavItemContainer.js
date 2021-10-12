@@ -1,4 +1,5 @@
 import NavItem from './NavItem';
+import NavItemContainerFooter from './NavItemContainer.Footer';
 
 const NavItemContainer = (props) => {
     const NavLinks = [
@@ -13,6 +14,7 @@ const NavItemContainer = (props) => {
             {NavLinks?.map((item, index) => 
                 <NavItem text={ item.text } link={ item.link } key={ index }/>
             )}
+            <NavItemContainerFooter />
         </div>
      );
 }

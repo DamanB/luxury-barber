@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import NavbarFooter from './Navbar.Footer';
 
 import NavButton from "./NavButton";
 import NavItemContainer from "./NavItemContainer";
@@ -18,7 +17,6 @@ const Navbar = () => {
                 onClick={ toggleNav }
             />
             { active && <NavItemContainer /> } 
-            <NavbarFooter />
         </div>
      );
 }
