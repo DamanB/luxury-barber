@@ -7,9 +7,9 @@ const NavButton = (props) => {
     return ( 
         <div className="navButton" onClick={ onClick }>
             <div className={ active ? 'change' : ''}>
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
             </div>
         </div>
     );
