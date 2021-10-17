@@ -1,6 +1,6 @@
 import Logo from 'assets/img/logo-white.png'
 
-import TextButton from 'components/textButton/textButton'
+import TextButton from 'components/Buttons/textButton/textButton'
 import ArcText from 'components/arcText/ArcText'
 
 const Hero = () => {
