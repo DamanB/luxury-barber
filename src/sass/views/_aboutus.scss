@@ -2,6 +2,7 @@
 
 #aboutUs {
     margin: 0 $small-x-margin 0 $small-x-margin;
+
     p:first-of-type {
         text-align: center;
         font-weight: $ft-light;
@@ -17,10 +18,10 @@
     }
 
     .imageContainer {  
-        position: relative;      
+        position: relative;    
         width: 326px;
         height: 267px;
-        margin-bottom: 80px;
+        margin: 0 auto 80px auto;
 
         .center_squared {
             width: 200px;
