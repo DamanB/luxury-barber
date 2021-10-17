@@ -1,9 +1,17 @@
 // Utilites
 @import './utilities/variables';
 
+//Views
+@import './views/hero';
+@import './views/aboutus';
+
 //Components
 @import './components/navbar/navbar';
 @import './components/navbar/navButton';
 @import './components/navbar/navItemContainer';
 @import'./components/buttons/iconButtons/iconButton';
 @import './components/textButton';
+
+
+//Layout
+@import './layout/headers/header1';

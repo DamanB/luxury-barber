@@ -1,4 +1,6 @@
 .navButton {
+    position: relative;
+    z-index: 6;
     display: inline-block;
     cursor: pointer;
     margin: 35px 0 20px 35px;

@@ -1,12 +1,11 @@
-import './hero.css'
-import Logo from '../../assets/img/logo-white.png'
+import Logo from 'assets/img/logo-white.png'
 
-import TextButton from '../../components/textButton/textButton'
-import ArcText from '../../components/arcText/ArcText'
+import TextButton from 'components/textButton/textButton'
+import ArcText from 'components/arcText/ArcText'
 
-const hero = () => {
+const Hero = () => {
     return ( 
-        <div className="Hero">
+        <div id="Hero">
                 <div className="overlay"> </ div>
                 <div className="bg-image"></div>
             <header>
@@ -19,4 +18,4 @@ const hero = () => {
     );
 }
  
-export default hero;
+export default Hero;

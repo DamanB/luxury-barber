@@ -4,7 +4,7 @@ import NavItemContainerFooter from './NavItemContainer.Footer';
 const NavItemContainer = (props) => {
     const NavLinks = [
         { text: 'Book and Appointment', link: '#'},
-        { text: 'About ', link: '#'},
+        { text: 'About ', link: '#aboutUs'},
         { text: 'Services ', link: '#'},
         { text: 'Contact ', link: '#'},   
       ];

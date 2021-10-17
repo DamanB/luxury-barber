@@ -17,6 +17,7 @@ const Navbar = () => {
                 onClick={ toggleNav }
             />
             { active && <NavItemContainer /> } 
+            { active && <div className="navbarBackdrop" onClick={ toggleNav }/> }
         </div>
      );
 }
