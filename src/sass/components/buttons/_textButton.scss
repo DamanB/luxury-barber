@@ -1,12 +1,10 @@
-.textButton {
-    button {
+    .textButton {
         font-size: 12px;
         font-weight: $ft-medium;
         color: $light;
         background-color: $secondary;
         border: none;
-        cursor: pointer;
         width: 215px;
         height: 60px;
+        cursor: pointer;
     }
-}

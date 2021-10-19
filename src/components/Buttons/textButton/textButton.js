@@ -1,11 +1,9 @@
 const TextButton = (props) => {
     const text = props.text;
     return ( 
-        <div className="textButton">
-            <button>
-                { text }
-            </button>
-        </div>
+        <button className="textButton">
+            { text }
+        </button>
      );
 }
  
