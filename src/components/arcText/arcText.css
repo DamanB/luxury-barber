@@ -18,21 +18,21 @@
 }
 
 .ArcText > .text > span:nth-child(1){
-    transform: rotate(-11.73deg)
+    transform: rotate(-12.03deg)
 }
 .ArcText > .text > span:nth-child(2){
-    transform: rotate(-6.59deg)
+    transform: rotate(-7.19deg)
 }
 .ArcText > .text > span:nth-child(3){
-    transform: rotate(-1.87deg)
+    transform: rotate(-2.17deg)
 }
 .ArcText > .text > span:nth-child(4){
-    transform: rotate(2.84deg)
+    transform: rotate(2.64deg)
 }
 .ArcText > .text > span:nth-child(5){
-    transform: rotate(7.88deg)
+    transform: rotate(7.58deg)
 }
 .ArcText > .text > span:nth-child(6){
-    transform: rotate(12.47deg)
+    transform: rotate(12.17deg)
 }
 
